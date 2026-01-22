@@ -1,0 +1,654 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {
+        "board_outline_line_width": 0.1,
+        "copper_line_width": 0.2,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "other_line_width": 0.15,
+        "silk_line_width": 0.15,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.15
+      },
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "rules": {
+        "min_copper_edge_clearance": 0.0,
+        "solder_mask_clearance": 0.0,
+        "solder_mask_min_width": 0.0
+      },
+      "track_widths": [],
+      "via_dimensions": []
+    },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
+    },
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
+      "extra_units": "error",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
+      "similar_labels": "warning",
+      "simulation_model_issue": "ignore",
+      "unannotated": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "scheme.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      }
+    ],
+    "meta": {
+      "version": 3
+    },
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": []
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "plot": "",
+      "pos_files": "",
+      "specctra_dsn": "",
+      "step": "",
+      "svg": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "",
+    "page_layout_descr_file": "",
+    "plot_directory": "",
+    "spice_current_sheet_as_root": false,
+    "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_voltages": false,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
+  },
+  "sheets": [
+    [
+      "e68ef4a4-ecbb-47e0-a4bb-374efe814026",
+      ""
+    ],
+    [
+      "6ca7316f-95d4-4f12-9f1b-d33c49389fbd",
+      "64bit memory"
+    ],
+    [
+      "8e14bc84-a656-4ab8-b516-259f2a2dea0b",
+      "Decoder"
+    ],
+    [
+      "194778c0-121d-4470-a5db-da664793653b",
+      "Memory cells"
+    ],
+    [
+      "48816e51-e306-4d75-9374-13f52efdc405",
+      "Word 0 - \"000\""
+    ],
+    [
+      "a80a0a55-7d5a-4e15-8820-22273c46cce0",
+      "BC1"
+    ],
+    [
+      "ea857180-1cfb-44a5-ab60-e421ad821a3f",
+      "Word 1 - \"001\""
+    ],
+    [
+      "a80a0a55-7d5a-4e15-8820-22273c46cce0",
+      "BC1"
+    ],
+    [
+      "659a3921-068c-42f7-a067-c5ec943b0cdb",
+      "Word 2 - \"010\""
+    ],
+    [
+      "a80a0a55-7d5a-4e15-8820-22273c46cce0",
+      "BC1"
+    ],
+    [
+      "a80a0a55-7d5a-4e15-8820-22273c46cce0",
+      "BC1"
+    ],
+    [
+      "a80a0a55-7d5a-4e15-8820-22273c46cce0",
+      "BC1"
+    ],
+    [
+      "a80a0a55-7d5a-4e15-8820-22273c46cce0",
+      "BC1"
+    ],
+    [
+      "ae17cafa-fbb2-48ef-ac26-91b20ddd323c",
+      "BC0"
+    ],
+    [
+      "a80a0a55-7d5a-4e15-8820-22273c46cce0",
+      "BC1"
+    ],
+    [
+      "a80a0a55-7d5a-4e15-8820-22273c46cce0",
+      "BC1"
+    ],
+    [
+      "fea10367-6f6d-4deb-82a8-37440015eb00",
+      "BC2"
+    ],
+    [
+      "a46539d6-b8a8-4efe-8a1c-7096605ddc48",
+      "Word 3 - \"011\""
+    ],
+    [
+      "fea10367-6f6d-4deb-82a8-37440015eb00",
+      "BC2"
+    ],
+    [
+      "fea10367-6f6d-4deb-82a8-37440015eb00",
+      "BC2"
+    ],
+    [
+      "fea10367-6f6d-4deb-82a8-37440015eb00",
+      "BC2"
+    ],
+    [
+      "fea10367-6f6d-4deb-82a8-37440015eb00",
+      "BC2"
+    ],
+    [
+      "ae17cafa-fbb2-48ef-ac26-91b20ddd323c",
+      "BC0"
+    ],
+    [
+      "fea10367-6f6d-4deb-82a8-37440015eb00",
+      "BC2"
+    ],
+    [
+      "fea10367-6f6d-4deb-82a8-37440015eb00",
+      "BC2"
+    ],
+    [
+      "fea10367-6f6d-4deb-82a8-37440015eb00",
+      "BC2"
+    ],
+    [
+      "253453f7-53f7-4272-9990-d0c54a44eb37",
+      "BC3"
+    ],
+    [
+      "253453f7-53f7-4272-9990-d0c54a44eb37",
+      "BC3"
+    ],
+    [
+      "253453f7-53f7-4272-9990-d0c54a44eb37",
+      "BC3"
+    ],
+    [
+      "ae17cafa-fbb2-48ef-ac26-91b20ddd323c",
+      "BC0"
+    ],
+    [
+      "673033fa-6f7a-496b-89d8-b963a822e473",
+      "Word 4 - \"100\""
+    ],
+    [
+      "253453f7-53f7-4272-9990-d0c54a44eb37",
+      "BC3"
+    ],
+    [
+      "253453f7-53f7-4272-9990-d0c54a44eb37",
+      "BC3"
+    ],
+    [
+      "253453f7-53f7-4272-9990-d0c54a44eb37",
+      "BC3"
+    ],
+    [
+      "253453f7-53f7-4272-9990-d0c54a44eb37",
+      "BC3"
+    ],
+    [
+      "253453f7-53f7-4272-9990-d0c54a44eb37",
+      "BC3"
+    ],
+    [
+      "ae17cafa-fbb2-48ef-ac26-91b20ddd323c",
+      "BC0"
+    ],
+    [
+      "fd8154d3-6fdd-48c1-b84b-0eed4ea21f1c",
+      "BC4"
+    ],
+    [
+      "ae17cafa-fbb2-48ef-ac26-91b20ddd323c",
+      "BC0"
+    ],
+    [
+      "fd8154d3-6fdd-48c1-b84b-0eed4ea21f1c",
+      "BC4"
+    ],
+    [
+      "fd8154d3-6fdd-48c1-b84b-0eed4ea21f1c",
+      "BC4"
+    ],
+    [
+      "4ddbde5b-2f0a-4b3e-8f20-b90d7a0d02fe",
+      "Word 5 - \"101\""
+    ],
+    [
+      "fd8154d3-6fdd-48c1-b84b-0eed4ea21f1c",
+      "BC4"
+    ],
+    [
+      "ae17cafa-fbb2-48ef-ac26-91b20ddd323c",
+      "BC0"
+    ],
+    [
+      "fd8154d3-6fdd-48c1-b84b-0eed4ea21f1c",
+      "BC4"
+    ],
+    [
+      "fd8154d3-6fdd-48c1-b84b-0eed4ea21f1c",
+      "BC4"
+    ],
+    [
+      "fd8154d3-6fdd-48c1-b84b-0eed4ea21f1c",
+      "BC4"
+    ],
+    [
+      "fd8154d3-6fdd-48c1-b84b-0eed4ea21f1c",
+      "BC4"
+    ],
+    [
+      "ebcf3fdf-cf46-4667-b43b-e7c50951498d",
+      "BC5"
+    ],
+    [
+      "ebcf3fdf-cf46-4667-b43b-e7c50951498d",
+      "BC5"
+    ],
+    [
+      "ebcf3fdf-cf46-4667-b43b-e7c50951498d",
+      "BC5"
+    ],
+    [
+      "ebcf3fdf-cf46-4667-b43b-e7c50951498d",
+      "BC5"
+    ],
+    [
+      "ebcf3fdf-cf46-4667-b43b-e7c50951498d",
+      "BC5"
+    ],
+    [
+      "ebcf3fdf-cf46-4667-b43b-e7c50951498d",
+      "BC5"
+    ],
+    [
+      "fa1fd814-4a24-4a93-96de-b13e8d2d94b9",
+      "Word 6 - \"110\""
+    ],
+    [
+      "ebcf3fdf-cf46-4667-b43b-e7c50951498d",
+      "BC5"
+    ],
+    [
+      "ebcf3fdf-cf46-4667-b43b-e7c50951498d",
+      "BC5"
+    ],
+    [
+      "f5cbd43c-d6b1-492a-937f-c45c8c988952",
+      "BC6"
+    ],
+    [
+      "f5cbd43c-d6b1-492a-937f-c45c8c988952",
+      "BC6"
+    ],
+    [
+      "f5cbd43c-d6b1-492a-937f-c45c8c988952",
+      "BC6"
+    ],
+    [
+      "f5cbd43c-d6b1-492a-937f-c45c8c988952",
+      "BC6"
+    ],
+    [
+      "f5cbd43c-d6b1-492a-937f-c45c8c988952",
+      "BC6"
+    ],
+    [
+      "ae17cafa-fbb2-48ef-ac26-91b20ddd323c",
+      "BC0"
+    ],
+    [
+      "f5cbd43c-d6b1-492a-937f-c45c8c988952",
+      "BC6"
+    ],
+    [
+      "f5cbd43c-d6b1-492a-937f-c45c8c988952",
+      "BC6"
+    ],
+    [
+      "b3fa99ec-6493-4c99-ab64-d4e838b7da59",
+      "Word 7 - \"111\""
+    ],
+    [
+      "f5cbd43c-d6b1-492a-937f-c45c8c988952",
+      "BC6"
+    ],
+    [
+      "b1ad0463-2fb8-41e0-a0cd-497a8c358283",
+      "BC7"
+    ],
+    [
+      "b1ad0463-2fb8-41e0-a0cd-497a8c358283",
+      "BC7"
+    ],
+    [
+      "b1ad0463-2fb8-41e0-a0cd-497a8c358283",
+      "BC7"
+    ],
+    [
+      "b1ad0463-2fb8-41e0-a0cd-497a8c358283",
+      "BC7"
+    ],
+    [
+      "b1ad0463-2fb8-41e0-a0cd-497a8c358283",
+      "BC7"
+    ],
+    [
+      "b1ad0463-2fb8-41e0-a0cd-497a8c358283",
+      "BC7"
+    ],
+    [
+      "b1ad0463-2fb8-41e0-a0cd-497a8c358283",
+      "BC7"
+    ],
+    [
+      "ae17cafa-fbb2-48ef-ac26-91b20ddd323c",
+      "BC0"
+    ],
+    [
+      "b1ad0463-2fb8-41e0-a0cd-497a8c358283",
+      "BC7"
+    ],
+    [
+      "93bf3f37-f617-4895-8348-720df0926394",
+      "FSM"
+    ],
+    [
+      "79f60215-d8b7-4dea-9fcf-67699a7235fb",
+      "Db-flip flop"
+    ],
+    [
+      "0e65582e-e8c6-44ba-8680-165bc2610daa",
+      "Da-flip flop1"
+    ]
+  ],
+  "text_variables": {}
+}
