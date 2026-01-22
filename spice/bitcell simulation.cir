@@ -1,0 +1,90 @@
+[aimspice]
+[description]
+1780
+Bitcell - 1 bit memory - tt
+
+vdd 1 0 dc 1
+vrw 3 0 dc 0
+vsel 2 0 dc 1
+vinp 6 0 dc 1
+*vinp 6 0 dc 1 pulse(0 1 1n 1p 1p 3n)
+
+*bitcell logic based on SR latch
+xmp1 4 2 1 1 pmos1v l=lp w=wp
+xmp2 4 3 1 1 pmos1v l=lp w=wp
+xmp3 4 2 5 5 nmos1v l=ln w=wn
+xmp4 5 3 0 0 nmos1v l=ln w=wn
+xmp5 7 6 1 1 pmos1v l=lp w=wp
+xmp6 7 6 0 0 nmos1v l=ln w=wn
+xmp7 8 6 1 1 pmos1v l=lp w=wp
+xmp8 9 4 8 8 pmos1v l=lp w=wp
+xmp9 9 6 0 0 nmos1v l=ln w=wn
+xmp10 9 4 0 0 nmos1v l=ln w=wn
+xmp11 10 7 1 1 pmos1v l=lp w=wp
+xmp12 11 4 10 10 pmos1v l=lp w=wp
+xmp13 11 7 0 0 nmos1v l=ln w=wn
+xmp14 11 4 0 0 nmos1v l=ln w=wn
+xmp15 12 9 1 1 pmos1v l=lp w=wp
+xmp16 12 9 0 0 nmos1v l=ln w=wn
+xmp17 13 11 1 1 pmos1v l=lp w=wp
+xmp18 13 11 0 0 nmos1v l=ln w=wn
+xmp19 14 12 1 1 pmos1v l=lp w=wp
+xmp20 14 16 1 1 pmos1v l=lp w=wp
+xmp21 14 12 15 15 nmos1v l=ln w=wn
+xmp22 15 16 0 0 nmos1v l=ln w=wn
+xmp23 16 13 1 1 pmos1v l=lp w=wp
+xmp24 16 14 1 1 pmos1v l=lp w=wp
+xmp25 16 13 17 17 nmos1v l=ln w=wn
+xmp26 17 14 0 0 nmos1v l=ln w=wn
+
+*nrw signal generation
+xmp27 18 3 1 1 pmos1v l=ln w=wn
+xmp28 18 3 0 0 nmos1v l=lp w=wp
+
+*enable signal generation for tristate buffer
+xmp29 19 18 1 1 pmos1v l=ln w=wn
+xmp30 19 2 1 1 pmos1v l=ln w=wn
+xmp31 19 18 20 20 nmos1v l=lp w=wp
+xmp32 20 2 0 0 nmos1v l=lp w=wp
+xmp33 21 19 1 1 pmos1v l=ln w=wn
+xmp34 21 19 0 0 nmos1v l=lp w=wp
+
+*tristate buffer
+xmp35 22 21 1 1 pmos1v l=ln w=wn
+xmp36 22 21 0 0 nmos1v l=lp w=wp
+xmp37 25 16 1 1 pmos1v l=ln w=wn
+xmp38 23 22 25 25 pmos1v l=ln w=wn
+xmp39 23 21 26 26 nmos1v l=lp w=wp
+xmp40 26 16 0 0 nmos1v l=lp w=wp
+xmp41 24 23 1 1 pmos1v l=lp w=wp
+xmp42 24 23 0 0 nmos1v l=lp w=wp
+
+.param ln = 0.2u
+.param wp = 0.2u
+.param lp = 0.2u
+.param wn = 0.2u
+.include C:\Users\Adam\Desktop\gpdk90nm_tt.cir
+[dc]
+1
+vinp
+0
+0.9
+0.01
+[dctemp]
+27
+50
+1
+[tran]
+0.01n
+10n
+X
+X
+0
+[ana]
+4 1
+0
+1 1
+1 1 0 5
+1
+v(16)
+[end]
